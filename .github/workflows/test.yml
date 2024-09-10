@@ -1,0 +1,20 @@
+name: Release
+
+on: [push, workflow_dispatch]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Installing Rust
+          uses: actions-rust-lang/setup-rust-toolchain@v1
+        - name: Building with Cargo
+          uses: actions-rs/cargo@v1
+          with:
+            command: build
+            args: --release

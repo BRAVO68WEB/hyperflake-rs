@@ -1,2 +1,2 @@
-pub mod helper;
+mod helper;
 pub mod snowflake;

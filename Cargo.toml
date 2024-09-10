@@ -1,8 +1,17 @@
 [package]
 name = "hyperflake-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A simple and lightweight Rust crate library to generate unique snowflake like IDs starting from beginning of the 21th century."
 license = "MIT"
+authors = ["Jyotirmoy Bandyopadhayaya <hi@b68.dev>"]
+documentation = "https://docs.rs/hyperflake-rs"
+readme = "README.md"
+repository = "https://github.com/bravo68web/hyperflake-rs"
+keywords = ["hyperflake", "snowflake", "unique", "id", "generator", "lightweight", "simple", "rust", "crate", "library"]
+categories = ["algorithms", "development-tools", "no-std", "utilities"]
 
 [dependencies]
+
+[badges]
+maintenance = { status = "passively-maintained" }
