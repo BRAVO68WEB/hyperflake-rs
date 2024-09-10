@@ -2,5 +2,7 @@
 name = "hyperflake-rs"
 version = "0.1.0"
 edition = "2021"
+description = "A simple and lightweight Rust crate library to generate unique snowflake like IDs starting from beginning of the 21th century."
+license = "MIT"
 
 [dependencies]
