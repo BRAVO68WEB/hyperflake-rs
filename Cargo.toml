@@ -9,7 +9,7 @@ documentation = "https://docs.rs/hyperflake-rs"
 readme = "README.md"
 repository = "https://github.com/bravo68web/hyperflake-rs"
 keywords = ["hyperflake", "snowflake", "unique", "id", "generator"]
-categories = ["algorithms", "development-tools", "no-std", "utilities"]
+categories = ["algorithms", "development-tools", "no-std"]
 
 [dependencies]
 
